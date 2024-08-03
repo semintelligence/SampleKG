@@ -46,4 +46,4 @@ nyon:hasCourt co:sc;
 nyon:hasCaseType nyon:Criminal;
 nyon:hasCourtDecision decision:rej;
 nyon:hasParty party:State_Trading_Corporation_Of_India, party:Union_of_India;
-nyon:hasCourtOfficial co:S_Agrawal,co:R_Sahai;
+nyon:hasCourtOfficial co:S_Agrawal,co:R_Sahai.
