@@ -1,0 +1,120 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/nyon#Cites
+<https://w3id.org/def/nyon#Cites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/nyon#equalcite
+<https://w3id.org/def/nyon#equalcite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/nyon#hasCaseName
+<https://w3id.org/def/nyon#hasCaseName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/nyon#hasCaseType
+<https://w3id.org/def/nyon#hasCaseType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/nyon#hasCourt
+<https://w3id.org/def/nyon#hasCourt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/nyon#hasCourtDecision
+<https://w3id.org/def/nyon#hasCourtDecision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/nyon#hasCourtOfficial
+<https://w3id.org/def/nyon#hasCourtOfficial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/nyon#hasDate
+<https://w3id.org/def/nyon#hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/nyon#hasMonth
+<https://w3id.org/def/nyon#hasMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/nyon#hasParty
+<https://w3id.org/def/nyon#hasParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/nyon#hasYear
+<https://w3id.org/def/nyon#hasYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/nyon#works_in
+<https://w3id.org/def/nyon#works_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://schema.org/Government
+<https://schema.org/Government> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://schema.org/Organization
+<https://schema.org/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/def/nyon#Case
+<https://w3id.org/def/nyon#Case> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/nyon#Case199407KS71SC
+<https://w3id.org/def/nyon#Case199407KS71SC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/nyon#Case199407KS71SC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/nyon#Case> .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#Cites> "198005KS20SC" .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#equalcite> "1994 (2) UJ 493 SC"@en .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#equalcite> "1994 (3) SCALE 292"@en .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#equalcite> "1994 (72) ELT 797 SC"@en .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#equalcite> "1994 Supp (3) SCC 40"@en .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#equalcite> "JT 1994 (4) SC 528"@en .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#hasCaseName> "State Trading Corporation Of India vs Union Of India (Uoi) And Ors."@en .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#hasCaseType> <https://w3id.org/def/nyon#Criminal> .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#hasCourt> <https://w3id.org/def/nyon#Court_Officialsc> .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#hasCourtDecision> <https://w3id.org/def/nyon#Court_Decisionrej> .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#hasCourtOfficial> <https://w3id.org/def/nyon#Court_OfficialR_Sahai> .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#hasCourtOfficial> <https://w3id.org/def/nyon#Court_OfficialS_Agrawal> .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#hasDate> "15/07/1994" .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#hasMonth> "07" .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#hasParty> <https://w3id.org/def/nyon#PartyState_Trading_Corporation_Of_India> .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#hasParty> <https://w3id.org/def/nyon#PartyUnion_of_India> .
+<https://w3id.org/def/nyon#Case199407KS71SC> <https://w3id.org/def/nyon#hasYear> "1994" .
+# 
+# https://w3id.org/def/nyon#Court_OfficialR_Sahai
+<https://w3id.org/def/nyon#Court_OfficialR_Sahai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/nyon#Court_OfficialR_Sahai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://w3id.org/def/nyon#Court_OfficialR_Sahai> <http://www.w3.org/2000/01/rdf-schema#label> "R Sahai"@en .
+<https://w3id.org/def/nyon#Court_OfficialR_Sahai> <https://w3id.org/def/nyon#works_in> <https://w3id.org/def/nyon#Courtssc> .
+# 
+# https://w3id.org/def/nyon#Court_OfficialS_Agrawal
+<https://w3id.org/def/nyon#Court_OfficialS_Agrawal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/nyon#Court_OfficialS_Agrawal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://w3id.org/def/nyon#Court_OfficialS_Agrawal> <http://www.w3.org/2000/01/rdf-schema#label> "S Agrawal"@en .
+<https://w3id.org/def/nyon#Court_OfficialS_Agrawal> <https://w3id.org/def/nyon#works_in> <https://w3id.org/def/nyon#Courtssc> .
+# 
+# https://w3id.org/def/nyon#PartyState_Trading_Corporation_Of_India
+<https://w3id.org/def/nyon#PartyState_Trading_Corporation_Of_India> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/nyon#PartyState_Trading_Corporation_Of_India> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
+<https://w3id.org/def/nyon#PartyState_Trading_Corporation_Of_India> <http://www.w3.org/2000/01/rdf-schema#label> "State Trading Corporation Of India,"@en .
+# 
+# https://w3id.org/def/nyon#PartyUnion_of_India
+<https://w3id.org/def/nyon#PartyUnion_of_India> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/nyon#PartyUnion_of_India> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Government> .
+<https://w3id.org/def/nyon#PartyUnion_of_India> <http://www.w3.org/2000/01/rdf-schema#label> "Union Of India,"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:nyon="https://w3id.org/def/nyon#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/def/nyon#Cites -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#Cites"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#equalcite -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#equalcite"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#hasCaseName -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#hasCaseName"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#hasCaseType -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#hasCaseType"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#hasCourt -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#hasCourt"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#hasCourtDecision -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#hasCourtDecision"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#hasCourtOfficial -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#hasCourtOfficial"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#hasDate -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#hasDate"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#hasMonth -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#hasMonth"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#hasParty -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#hasParty"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#hasYear -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#hasYear"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#works_in -->
+
+
+    <AnnotationProperty rdf:about="https://w3id.org/def/nyon#works_in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+
+    <Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- https://schema.org/Government -->
+
+
+    <Class rdf:about="https://schema.org/Government"/>
+    
+
+
+    <!-- https://schema.org/Organization -->
+
+
+    <Class rdf:about="https://schema.org/Organization"/>
+    
+
+
+    <!-- https://w3id.org/def/nyon#Case -->
+
+
+    <Class rdf:about="https://w3id.org/def/nyon#Case"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/def/nyon#Case199407KS71SC -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/def/nyon#Case199407KS71SC">
+        <rdf:type rdf:resource="https://w3id.org/def/nyon#Case"/>
+        <nyon:Cites>198005KS20SC</nyon:Cites>
+        <nyon:equalcite xml:lang="en">1994 (2) UJ 493 SC</nyon:equalcite>
+        <nyon:equalcite xml:lang="en">1994 (3) SCALE 292</nyon:equalcite>
+        <nyon:equalcite xml:lang="en">1994 (72) ELT 797 SC</nyon:equalcite>
+        <nyon:equalcite xml:lang="en">1994 Supp (3) SCC 40</nyon:equalcite>
+        <nyon:equalcite xml:lang="en">JT 1994 (4) SC 528</nyon:equalcite>
+        <nyon:hasCaseName xml:lang="en">State Trading Corporation Of India vs Union Of India (Uoi) And Ors.</nyon:hasCaseName>
+        <nyon:hasCaseType rdf:resource="https://w3id.org/def/nyon#Criminal"/>
+        <nyon:hasCourt rdf:resource="https://w3id.org/def/nyon#Court_Officialsc"/>
+        <nyon:hasCourtDecision rdf:resource="https://w3id.org/def/nyon#Court_Decisionrej"/>
+        <nyon:hasCourtOfficial rdf:resource="https://w3id.org/def/nyon#Court_OfficialR_Sahai"/>
+        <nyon:hasCourtOfficial rdf:resource="https://w3id.org/def/nyon#Court_OfficialS_Agrawal"/>
+        <nyon:hasDate>15/07/1994</nyon:hasDate>
+        <nyon:hasMonth>07</nyon:hasMonth>
+        <nyon:hasParty rdf:resource="https://w3id.org/def/nyon#PartyState_Trading_Corporation_Of_India"/>
+        <nyon:hasParty rdf:resource="https://w3id.org/def/nyon#PartyUnion_of_India"/>
+        <nyon:hasYear>1994</nyon:hasYear>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/nyon#Court_OfficialR_Sahai -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/def/nyon#Court_OfficialR_Sahai">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">R Sahai</rdfs:label>
+        <nyon:works_in rdf:resource="https://w3id.org/def/nyon#Courtssc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/nyon#Court_OfficialS_Agrawal -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/def/nyon#Court_OfficialS_Agrawal">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">S Agrawal</rdfs:label>
+        <nyon:works_in rdf:resource="https://w3id.org/def/nyon#Courtssc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/nyon#PartyState_Trading_Corporation_Of_India -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/def/nyon#PartyState_Trading_Corporation_Of_India">
+        <rdf:type rdf:resource="https://schema.org/Organization"/>
+        <rdfs:label xml:lang="en">State Trading Corporation Of India,</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/nyon#PartyUnion_of_India -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/def/nyon#PartyUnion_of_India">
+        <rdf:type rdf:resource="https://schema.org/Government"/>
+        <rdfs:label xml:lang="en">Union Of India,</rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,155 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://schema.org/Government",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://schema.org/Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#Case",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#Case199407KS71SC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/def/nyon#Case"
+  } ],
+  "https://w3id.org/def/nyon#Cites" : [ {
+    "@value" : "198005KS20SC"
+  } ],
+  "https://w3id.org/def/nyon#equalcite" : [ {
+    "@language" : "en",
+    "@value" : "1994 (2) UJ 493 SC"
+  }, {
+    "@language" : "en",
+    "@value" : "1994 (3) SCALE 292"
+  }, {
+    "@language" : "en",
+    "@value" : "1994 (72) ELT 797 SC"
+  }, {
+    "@language" : "en",
+    "@value" : "1994 Supp (3) SCC 40"
+  }, {
+    "@language" : "en",
+    "@value" : "JT 1994 (4) SC 528"
+  } ],
+  "https://w3id.org/def/nyon#hasCaseName" : [ {
+    "@language" : "en",
+    "@value" : "State Trading Corporation Of India vs Union Of India (Uoi) And Ors."
+  } ],
+  "https://w3id.org/def/nyon#hasCaseType" : [ {
+    "@id" : "https://w3id.org/def/nyon#Criminal"
+  } ],
+  "https://w3id.org/def/nyon#hasCourt" : [ {
+    "@id" : "https://w3id.org/def/nyon#Court_Officialsc"
+  } ],
+  "https://w3id.org/def/nyon#hasCourtDecision" : [ {
+    "@id" : "https://w3id.org/def/nyon#Court_Decisionrej"
+  } ],
+  "https://w3id.org/def/nyon#hasCourtOfficial" : [ {
+    "@id" : "https://w3id.org/def/nyon#Court_OfficialR_Sahai"
+  }, {
+    "@id" : "https://w3id.org/def/nyon#Court_OfficialS_Agrawal"
+  } ],
+  "https://w3id.org/def/nyon#hasDate" : [ {
+    "@value" : "15/07/1994"
+  } ],
+  "https://w3id.org/def/nyon#hasMonth" : [ {
+    "@value" : "07"
+  } ],
+  "https://w3id.org/def/nyon#hasParty" : [ {
+    "@id" : "https://w3id.org/def/nyon#PartyState_Trading_Corporation_Of_India"
+  }, {
+    "@id" : "https://w3id.org/def/nyon#PartyUnion_of_India"
+  } ],
+  "https://w3id.org/def/nyon#hasYear" : [ {
+    "@value" : "1994"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#Cites",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#Court_OfficialR_Sahai",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "R Sahai"
+  } ],
+  "https://w3id.org/def/nyon#works_in" : [ {
+    "@id" : "https://w3id.org/def/nyon#Courtssc"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#Court_OfficialS_Agrawal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "S Agrawal"
+  } ],
+  "https://w3id.org/def/nyon#works_in" : [ {
+    "@id" : "https://w3id.org/def/nyon#Courtssc"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#PartyState_Trading_Corporation_Of_India",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://schema.org/Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "State Trading Corporation Of India,"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#PartyUnion_of_India",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://schema.org/Government"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Union Of India,"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#equalcite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#hasCaseName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#hasCaseType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#hasCourt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#hasCourtDecision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#hasCourtOfficial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#hasDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#hasMonth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#hasParty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#hasYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#works_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

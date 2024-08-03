@@ -1,0 +1,55 @@
+{
+  "@context" : {
+    "Case" : {
+      "@id" : "https://w3id.org/def/nyon#Case"
+    },
+    "Organization" : {
+      "@id" : "https://schema.org/Organization"
+    },
+    "hasCaseName" : {
+      "@id" : "https://w3id.org/def/nyon#hasCaseName"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "works_in" : {
+      "@id" : "https://w3id.org/def/nyon#works_in"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "Government" : {
+      "@id" : "https://schema.org/Government"
+    },
+    "hasDate" : {
+      "@id" : "https://w3id.org/def/nyon#hasDate"
+    },
+    "hasCourt" : {
+      "@id" : "https://w3id.org/def/nyon#hasCourt"
+    },
+    "hasCourtOfficial" : {
+      "@id" : "https://w3id.org/def/nyon#hasCourtOfficial"
+    },
+    "Cites" : {
+      "@id" : "https://w3id.org/def/nyon#Cites"
+    },
+    "hasMonth" : {
+      "@id" : "https://w3id.org/def/nyon#hasMonth"
+    },
+    "equalcite" : {
+      "@id" : "https://w3id.org/def/nyon#equalcite"
+    },
+    "hasYear" : {
+      "@id" : "https://w3id.org/def/nyon#hasYear"
+    },
+    "hasCaseType" : {
+      "@id" : "https://w3id.org/def/nyon#hasCaseType"
+    },
+    "hasCourtDecision" : {
+      "@id" : "https://w3id.org/def/nyon#hasCourtDecision"
+    },
+    "hasParty" : {
+      "@id" : "https://w3id.org/def/nyon#hasParty"
+    }
+  }
+}
