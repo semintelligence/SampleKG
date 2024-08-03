@@ -1,0 +1,20 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"nyon:Court_OfficialR_Sahai" -> "nyon:Courtssc" [ label = "nyon:works_in" ];
+	"nyon:Court_OfficialR_Sahai" -> "nyon:Author" [ label = "rdfs:type" ];
+	"nyon:Court_OfficialR_Sahai" -> "nyon:Court_OfficialJudge" [ label = "rdfs:type" ];
+	"nyon:Court_OfficialS_Agrawal" -> "nyon:Courtssc" [ label = "nyon:works_in" ];
+	"nyon:Court_OfficialS_Agrawal" -> "nyon:Author" [ label = "rdfs:type" ];
+	"nyon:Court_OfficialS_Agrawal" -> "nyon:Court_OfficialJudge" [ label = "rdfs:type" ];
+	"nyon:Case199407KS71SC" -> "nyon:Court_OfficialS_Agrawal" [ label = "nyon:hasCourtOfficial" ];
+	"nyon:Case199407KS71SC" -> "nyon:PartyUnion_of_India" [ label = "nyon:hasParty" ];
+	"nyon:Case199407KS71SC" -> "nyon:PartyState_Trading_Corporation_Of_India" [ label = "nyon:hasParty" ];
+	"nyon:Case199407KS71SC" -> "nyon:Court_OfficialR_Sahai" [ label = "nyon:hasCourtOfficial" ];
+	"nyon:Case199407KS71SC" -> "nyon:Court_Decisionrej" [ label = "nyon:hasCourtDecision" ];
+	"nyon:Case199407KS71SC" -> "nyon:Criminal" [ label = "nyon:hasCaseType" ];
+	"nyon:Case199407KS71SC" -> "nyon:Court_Officialsc" [ label = "nyon:hasCourt" ];
+	"nyon:PartyUnion_of_India" -> "nyon:Respondent" [ label = "rdfs:type" ];
+	"nyon:PartyState_Trading_Corporation_Of_India" -> "nyon:Petitioner" [ label = "rdfs:type" ];
+
+}
